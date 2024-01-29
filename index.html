@@ -1,11 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 3 - Form HTML</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="/style.css" />
 </head>
 <body>
-    <h1>Lab 3 44444</h1>
+
+    <div class="form-wrapper">
+        <div class="map">
+            <div>
+                <h1>Get in <span class="touch">touch</span></h1>
+                <p>
+                    Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu leo
+                    molestie vel, ornare non id blandit netus.
+                </p>
+                <form class="form-content">
+                    <!-- placeholder: text goi y -->
+                    <input class="input-form" type="text" placeholder="Contact name" />
+                    <input class="input-form" type="text" placeholder="Street" />
+                    <div class="city">
+                        <input class="input-form" type="text" placeholder="City" />
+                        <input class="input-form" type="number" placeholder="Postcode" />
+                    </div>
+                    <input class="input-form" type="number" placeholder="Contact Phone" />
+                    <input class="input-form" type="email" placeholder="Email" />
+                    <input class="input-form" type="text" placeholder="Let’s talk about your idea" />
+                    <div class="file">
+                        <input type="file" />
+                    </div>
+                    <p>Attach file. File size of your documents should not exceed 10MB</p>
+                    <div>
+                        <input type="checkbox" id="confirm" />
+                        <label for="confirm">I want to protect my data by signing an NDA</label>
+                    </div>
+                    <button type="submit" class="btn">Submit</button>
+                    <div class="cuoi">
+                        <div class="icon">
+                            <img src="/xây dựng trang webb/b5/img/phone.svg" alt="">
+                            <div class="text">
+                                <p>Phone</p>
+                                <p>111111111</p>
+                            </div>
+                        </div>
+                        <div class="icon">
+                            <img src="/xây dựng trang webb/b5/img/email.svg" alt="">
+                            <div class="text">
+                                <p>Email</p>
+                                <p>cuongnmph37305@fpt.edu.vn</p>
+                            </div>
+                        </div>
+                        <div class="icon">
+                            <img src="/xây dựng trang webb/b5/img/help-desk.svg" alt="">
+                            <div class="text">
+                                <p>Helpdesk</p>
+                                <p>http://abc</p>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+    
+            <div>
+                <iframe class="map1"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.804389160094!2d105.73621317379758!3d21.040511487377678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31345550b525aa03%3A0x3fdefc40f69a023a!2zQ2FvIMSR4bqzbmcgRlBUIFBo4buRIFRy4buLbmggVsSDbiBCw7QgLCBQaMaw4budbmcgUGjGsMahbmcgQ2FuaCAsIHF14bqtbiBU4burIExpw6pt!5e0!3m2!1sen!2s!4v1706272594760!5m2!1sen!2s"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>

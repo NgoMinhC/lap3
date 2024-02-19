@@ -1,0 +1,237 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: "Inter", sans-serif;
+    background: #FBFBFF;
+  }
+  
+  ul,
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  nav {
+    display: flex;
+  }
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    gap: 100px;
+  }
+  .menu{
+    margin-top: 15px;
+  }
+  
+  .menu-list {
+    display: flex;
+    gap: 43px;
+  }
+  
+  .btn-group {
+    display: flex;
+  }
+  
+  .btn-contact {
+    border: none;
+    padding: 16px 28px;
+    border-radius: 47px;
+    background: #7f56d9;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  .btn-signin {
+    border: none;
+    color: #55557a;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  
+  .menu-link {
+    color: #55557a;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .two{
+    text-align: center;
+    margin-top: 70px;
+  }
+  .tieude1{
+    font-size: 60px;
+  }
+  .style1{
+    color: #EF670D;
+  }
+  .style2{
+    color: #7F56D9;
+  }
+  .tieude3{
+    margin-top: 50px;
+    color: #7E7EAA;
+    font-size: 20px;
+  }
+  .bt1{
+    margin-top: 50px;
+  }
+  .btn1{
+    width: 280px;
+    height: 70px;
+    background-color: #FF6905;
+    color: #fff;
+    border-radius: 40px;
+    font-size: 22px;
+    margin: 20px;
+  }
+  .btn2{
+    width: 280px;
+    height: 70px;
+    background-color: #7F56D9;
+    color: #fff;
+    border-radius: 40px;
+    font-size: 22px;
+  }
+  .td1{
+    color: #7F56D9;
+  }
+  .div2{
+    max-width: 1750px;
+    margin-left: 130px;
+    margin-top: 50px;
+    margin: 0 auto;
+  }
+  .one{
+    display: flex;
+    gap: 250px;
+    margin-top: 20px;
+  }
+  .two1{
+    display: flex;
+    gap: 20px;
+  }
+  .p1{
+    margin-top: 30px;
+  }
+  .ba{
+    margin-top: 80px;
+    width: 520px;
+    background-color: #fff;
+  }
+  .dong1{
+    font-size: 28px;
+    margin-top: 40px;
+  }
+  .hr{
+    margin-top: 40px;
+    width: 520px;
+  }
+  .tu{
+    display: flex;
+    gap: 220px;
+    margin-top: 20px;
+  }
+  .nam{
+    display: flex;
+    gap: 20px;
+  }
+  .mkt{
+    width: 120px;
+    height: 35px;
+    background-color: #7F56D9;
+    color: #fff;
+    border-radius: 17px;
+  }
+  .tongba{
+    display: flex;
+    gap: 70px;
+    background-color: #EBEBF5 30%;
+  }
+  .h1p3{
+    font-size: 50px;
+    color: #1D1D45;
+  }
+  .pp3{
+    font-size: 25px;
+    color: #7E7EAA;
+    margin-top: 30px;
+  }
+  .phan3{
+    text-align: center;
+    margin-top: 250px;
+  }
+  .p1p3{
+    font-size: 22px;
+    margin-top: 30px;
+    text-align: left;
+  }
+  .phan31{
+    display: flex;
+    gap: 20px;
+  }
+  .phan32{
+    width: 520px;
+  }
+  .p2p3{
+    margin-top: 20px;
+  }
+  .tongp32{
+    margin-left: 500px;
+    display: flex;
+    margin-top: 100px;
+    gap: 5px;
+  }
+  .sao{
+    margin-right: 1000px;
+    margin-top: 50px;
+  }
+  footer {
+    background-color: #7f56d9;
+    color: #fff;
+    margin-top: 150px;
+  }
+  
+  .footer {
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .company-info {
+    max-width: 477px;
+  }
+  
+  .lesson {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .lesson-info {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  
+  .lesson-text {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .link-row{
+    display: flex;
+    gap: 20px;
+    margin: 15px;
+  }
+  .footer-logo{
+    margin-bottom: 30px;
+  }
+  .contact-us{
+    display: flex;
+    gap: 200px;
+  }
+  
